@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+
+
+
+
+* {
+    margin:0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: hsla(216, 100%, 66%, .5);
+   /* background-image: url("cilla.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
+
+ol {
+    list-style: disc;
+}
+
+li {
+    list-style: square;
+    margin-left: 25px;
+}
+
+
+strong {
+    color: yellow;
+    font-size: 3rem;
+}
+
+.overskrift_class {
+    color: green;
+}
+
+h1 {
+    color: yellow;
+}
+
+#overskrift {
+    color: blue;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+    background-color: pink;
+}
+
+img {
+    aspect-ratio: 1/1;
+    width: 250px;
+}
+
+img:hover {
+    width: 260px;
+}
+
+#first_paragraph {
+font-family: "Honk";
+    font-size: 1rem;
+    padding: 10px;
+}
+
+form {
+    background-color: antiquewhite;
+    padding: 40px;
+
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 25ch;
+    border: dashed 2px cornflowerblue;
+/*    border-width: 2px;
+    border-style: dashed;
+    border-color: blue;
+    */
+
+}
+
+button {
+margin-top: 20px;
+}
+
+button input {
+    border-style: none;
+}
+
+a {
+    font-family: cursive;
+}
+
+a:hover {
+    color: yellow;
+}
+
+/*a:visited {
+    color: aquamarine;
+}*/
+
+
+@keyframes rainbow_animation {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+
+nav {
+    animation-name: rainbow_animation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+
+
+
